@@ -9,7 +9,7 @@ st.title("🛒 Supermarket Sales Dashboard")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("D:\Projects\Supermarket sales analysis\Data\SuperMarket Analysis dataset.csv")
+    df = pd.read_csv("SuperMarket Analysis dataset.csv")
     df['Date'] = pd.to_datetime(df['Date'])
     df['Hour'] = pd.to_datetime(df['Time'], format='%I:%M:%S %p').dt.hour
     df['Day'] = df['Date'].dt.day_name()

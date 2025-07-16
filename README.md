@@ -64,7 +64,7 @@ It provides business insights like sales trends by product line, time of day, an
 
 ## 🌐 Live Demo
 
-_The deployed dashboard will be added here once hosted on Streamlit Cloud._
+https://supermarket-sales-dashboard-gdzbnttuahscfkvbkgukmy.streamlit.app/
 
 
 
